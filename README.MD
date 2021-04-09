@@ -1,11 +1,12 @@
-Universidade Federal do Rio de Janeiro
-PROJETO DE CIRCUITOS ELÉTRICOS 2
-Gabriel de Lima Moura - 118045099
+Universidade Federal do Rio de Janeiro <br>
+PROJETO DE CIRCUITOS ELÉTRICOS 2 <br>
+Gabriel de Lima Moura - 118045099 <br>
 
-FORMATO DAS ENTRADAS:
+
+FORMATO DAS ENTRADAS: <br>
 
 Resistor:       R< name >  < n+ >  < n- > <resistance>
-    
+  
 VCCS:           G< name >  < io+ > < io- > <vi+> <vi-> <transconductance>
     
 VCVC:           E< name > < vo+ >  < vo- > <vi+> <vi-> <gain>
@@ -36,7 +37,7 @@ Indutor:        L< name > < n+ > < n- > < Inductance >  [< InitialCurrent >]
     
 Transformador ideal: K< name > < n1+ > < n1- > < n2+ > < n2- > < relação de espiras >
     
-
+<br> <br>
 
 Como usar: 
 
@@ -44,7 +45,7 @@ Como usar:
     . execute o arquivo run.py
     . Os resultados serão escritos no arquivo results.txt
 
-
+<br>
 Pacotes/Bibliotecas necessárias : 
 
     . numpy
